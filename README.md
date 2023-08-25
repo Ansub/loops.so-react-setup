@@ -1,14 +1,22 @@
 ### Loops.so Implementation
-This repository provides a simplified implementation of the Luminary Newsletter subscription form using the Loops.so API. It demonstrates how Loops.so can be integrated into a portfolio website. The setup is straightforward.
+This repository provides a simplified implementation of the [Luminary Newsletter](https://www.ansubkhan.com/newsletter) subscription form using the [Loops.so](https://loops.so/). It demonstrates how Loops.so can be integrated in react app, setup is straightforward.
 
 ### Prerequisites
-	•	React (Next.js)
-	•	Tailwind CSS (You can remove the styles or incorporate the logic into your own application)
+	•	React / Next.js
 	•	Zod for validation
 	•	Axios for handling post requests
+ 	•	Loops Form Link
 
-### Just Logic: 
-```javascript
+### How to get Form Link?
+
+
+https://github.com/Ansub/loops.so-react-setup/assets/12985873/50c586e1-2f8a-4eb3-9121-a0ea45b897d1
+
+
+ 	
+
+### Logic
+```typescript
 const [email, setEmail] = useState<string>("");
 
   const handleSubmit = async (event: React.FormEvent) => {
@@ -47,6 +55,3 @@ const [email, setEmail] = useState<string>("");
     }
   };
 ```
-
-### CSS Changes
-Please note that the appearance may differ from my website as I utilized a custom button component and "shadcn" for input styling.
